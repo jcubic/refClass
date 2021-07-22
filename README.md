@@ -12,3 +12,12 @@ R CMD INSTALL Package_B
 
 Rscript app.R
 ```
+
+Expected behvior is the output
+
+```
+hello [1]
+hello [2]
+world [1]
+world [2]
+```
