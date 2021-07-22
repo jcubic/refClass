@@ -21,3 +21,14 @@ hello [2]
 world [1]
 world [2]
 ```
+
+## The problem
+
+In PackageA you have base class that call function defined in package.
+In PackageB you have inherit class that overwrite the method and callSuper.
+When calling that method base class implemention of the method doesn't see
+functions in package environment.
+
+## License
+
+Code license is Public Domain [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/).
