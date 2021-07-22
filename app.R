@@ -1,2 +1,3 @@
 foo <- packageB::Bar$new()
-foo$bar("hello")
+foo$foo("hello")
+foo$bar("world")
