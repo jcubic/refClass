@@ -22,6 +22,16 @@ world [1]
 world [2]
 ```
 
+Receive output:
+
+```
+hello [1]
+hello [2]
+Error in lorem(x) : could not find function "lorem"
+Calls: <Anonymous> -> callSuper
+Execution halted
+```
+
 ## The problem
 
 In PackageA you have base class that call function defined in package.
