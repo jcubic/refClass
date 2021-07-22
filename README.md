@@ -16,6 +16,8 @@ Rscript app.R
 Expected behvior is the output
 
 ```
+lorem [1]
+lorem [1]
 hello [1]
 hello [2]
 world [1]
@@ -25,6 +27,8 @@ world [2]
 Receive output:
 
 ```
+lorem [1]
+lorem [1]
 hello [1]
 hello [2]
 Error in lorem(x) : could not find function "lorem"
@@ -34,7 +38,7 @@ Execution halted
 
 ## The problem
 
-In PackageA you have base class that call function defined in package.
+In PackageA you have base ref class that call function defined in package.
 In PackageB you have inherit class that overwrite the method and callSuper.
 When calling that method base class implemention of the method doesn't see
 functions in package environment.
